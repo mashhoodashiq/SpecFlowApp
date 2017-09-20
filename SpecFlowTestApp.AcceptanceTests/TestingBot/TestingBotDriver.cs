@@ -60,6 +60,7 @@ namespace SpecFlowTestApp.AcceptanceTests.TestingBot
                         return new FirefoxDriver();
                     }
                 case "opera": {
+
                         return new OperaDriver();
                     }
                 case "edge": {
